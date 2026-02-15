@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Products - GreenCut Lawn Care</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
+
     <header>
-        <h1>Our Services</h1>
+        <h1>Our Products</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -15,23 +21,39 @@
         </nav>
     </header>
 
-    <main>
-        <h2>Lawn Cutting Services</h2>
-        <ul>
-            <li>Residential lawn cutting</li>
-            <li>Commercial lawn cutting</li>
-            <li>Scheduled weekly or bi-weekly mowing</li>
-            <li>Edge trimming along sidewalks and driveways</li>
-            <li>All products</li>
-        </ul>
+    <section class="container">
+        <h2>Shoe Categories</h2>
 
-        <p>
-            All services are performed using standard safety procedures and maintained equipment.
-        </p>
-    </main>
+        <div class="grid">
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5">
+                <h3>Formal Shoes</h3>
+                <p>Leather shoes for professional use.</p>
+                <button onclick="selectProduct('Formal Shoes')">Select</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1520256862855-398228c41684">
+                <h3>Sneakers</h3>
+                <p>Sneakers suitable for casual lifestyle.</p>
+                <button onclick="selectProduct('Sneakers')">Select</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a">
+                <h3>Boots</h3>
+                <p>Durable boots for outdoor use.</p>
+                <button onclick="selectProduct('Boots')">Select</button>
+            </div>
+
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2026 GreenCut Lawn Care</p>
+        <p>© 2026 Shoe Apparel</p>
     </footer>
+
 </body>
+
 </html>
