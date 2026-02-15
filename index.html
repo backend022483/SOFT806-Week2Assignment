@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>GreenCut Lawn Care</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Apparel</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
+
     <header>
-        <h1>GreenCut Lawn Care</h1>
+        <h1>Shoe Apparel</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -15,22 +21,44 @@
         </nav>
     </header>
 
-    <main>
-        <h2>Professional Lawn Cutting Services</h2>
-        <p>
-            GreenCut Lawn Care provides residential and commercial lawn cutting services.
-            We focus on maintaining healthy, well-trimmed grass using reliable equipment
-            and standard lawn care practices.
-        </p>
+    <section class="hero">
+        <h2>Quality Shoe Apparel for Everyday Use</h2>
+        <p>Durable and comfortable footwear designed for daily activities.</p>
+    </section>
 
-        <p>
-            Regular lawn cutting helps improve grass growth, reduces weed spread,
-            and keeps outdoor areas clean and safe.
-        </p>
-    </main>
+    <section class="container">
+        <h2>Featured Shoes</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+                <h3>Running Shoes</h3>
+                <p>Lightweight shoes designed for running and training.</p>
+                <button onclick="selectProduct('Running Shoes')">Select</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77">
+                <h3>Casual Shoes</h3>
+                <p>Comfortable shoes suitable for everyday wear.</p>
+                <button onclick="selectProduct('Casual Shoes')">Select</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06">
+                <h3>Sports Shoes</h3>
+                <p>Durable sports shoes built for performance.</p>
+                <button onclick="selectProduct('Sports Shoes')">Select</button>
+            </div>
+
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2026 GreenCut Lawn Care</p>
+        <p>© 2026 Shoe Apparel</p>
     </footer>
+
 </body>
+
 </html>
