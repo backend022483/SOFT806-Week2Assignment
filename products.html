@@ -1,59 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
-
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
-
 <body>
 
-    <header>
-        <h1>Our Products</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="products.html">Products</a>
-        </nav>
-    </header>
+<header>
+    <h1>Products</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+    </nav>
+</header>
 
-    <section class="container">
-        <h2>Shoe Categories</h2>
+<div class="container">
+    <h2>Our Shoes</h2>
 
-        <div class="grid">
-
-            <div class="product">
-                <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5">
-                <h3>Formal Shoes</h3>
-                <p>Leather shoes for professional use.</p>
-                <button onclick="selectProduct('Formal Shoes')">Select</button>
-            </div>
-
-            <div class="product">
-                <img src="https://images.unsplash.com/photo-1520256862855-398228c41684">
-                <h3>Sneakers</h3>
-                <p>Sneakers suitable for casual lifestyle.</p>
-                <button onclick="selectProduct('Sneakers')">Select</button>
-            </div>
-
-            <div class="product">
-                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a">
-                <h3>Boots</h3>
-                <p>Durable boots for outdoor use.</p>
-                <button onclick="selectProduct('Boots')">Select</button>
-            </div>
-
+    <div class="grid">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5">
+            <h3>Formal Shoes</h3>
+            <button onclick="selectProduct('Formal Shoes')">Select</button>
         </div>
-    </section>
 
-    <footer>
-        <p>© 2026 Shoe Apparel</p>
-    </footer>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1520256862855-398228c41684">
+            <h3>Sneakers</h3>
+            <button onclick="selectProduct('Sneakers')">Select</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a">
+            <h3>Boots</h3>
+            <button onclick="selectProduct('Boots')">Select</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Shoe Apparel</p>
+</footer>
 
 </body>
-
 </html>
