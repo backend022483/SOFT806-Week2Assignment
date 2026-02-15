@@ -1,64 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe Apparel</title>
-
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
-
 <body>
 
-    <header>
-        <h1>Shoe Apparel</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="products.html">Products</a>
-        </nav>
-    </header>
+<header>
+    <h1>Shoe Apparel</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+    </nav>
+</header>
 
-    <section class="hero">
-        <h2>Quality Shoe Apparel for Everyday Use</h2>
-        <p>Durable and comfortable footwear designed for daily activities.</p>
-    </section>
+<section class="hero">
+    <h2>Welcome to Shoe Apparel</h2>
+    <p>We provide quality and durable footwear.</p>
+</section>
 
-    <section class="container">
-        <h2>Featured Shoes</h2>
+<div class="container">
+    <h2>Featured Shoes</h2>
 
-        <div class="grid">
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
-                <h3>Running Shoes</h3>
-                <p>Lightweight shoes designed for running and training.</p>
-                <button onclick="selectProduct('Running Shoes')">Select</button>
-            </div>
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77">
-                <h3>Casual Shoes</h3>
-                <p>Comfortable shoes suitable for everyday wear.</p>
-                <button onclick="selectProduct('Casual Shoes')">Select</button>
-            </div>
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06">
-                <h3>Sports Shoes</h3>
-                <p>Durable sports shoes built for performance.</p>
-                <button onclick="selectProduct('Sports Shoes')">Select</button>
-            </div>
-
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+            <h3>Running Shoes</h3>
+            <p>Lightweight for running.</p>
+            <button onclick="selectProduct('Running Shoes')">Select</button>
         </div>
-    </section>
 
-    <footer>
-        <p>© 2026 Shoe Apparel</p>
-    </footer>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77">
+            <h3>Casual Shoes</h3>
+            <p>Comfortable daily wear.</p>
+            <button onclick="selectProduct('Casual Shoes')">Select</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06">
+            <h3>Sports Shoes</h3>
+            <p>Durable sports use.</p>
+            <button onclick="selectProduct('Sports Shoes')">Select</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Shoe Apparel</p>
+</footer>
 
 </body>
-
 </html>
