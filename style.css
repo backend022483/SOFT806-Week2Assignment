@@ -5,80 +5,55 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f9fb;
     color: #333;
 }
 
+/* HEADER */
 header {
-    background: #000;
-    color: #fff;
-    padding: 15px;
+    background: linear-gradient(to right, #000000, #222);
+    color: white;
+    padding: 18px;
     text-align: center;
 }
 
+header h1 {
+    margin-bottom: 6px;
+}
+
 nav a {
-    color: #fff;
-    margin: 0 12px;
+    color: white;
+    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #ffd54f;
 }
 
+/* HERO */
 .hero {
-    background: #f2f2f2;
-    padding: 40px;
+    background: url('https://images.unsplash.com/photo-1528701800489-20be3c1b49aa') center/cover;
+    color: white;
+    padding: 90px 20px;
     text-align: center;
 }
 
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* CONTAINER */
 .container {
-    width: 80%;
+    width: 90%;
+    max-width: 1100px;
     margin: auto;
-    padding: 30px 0;
-}
-
-.grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.card, .product {
-    width: 250px;
-    border: 1px solid #ccc;
-    padding: 12px;
-    border-radius: 6px;
-    text-align: center;
-    background: #fff;
-}
-
-/* STANDARD IMAGE SIZE FOR SCHOOL PROJECT */
-.card img,
-.product img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 6px;
-    margin-bottom: 8px;
-}
-
-button {
-    margin-top: 8px;
-    padding: 8px 12px;
-    border: none;
-    background: black;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-footer {
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    margin-top: 40px;
+    padding: 40px 0;
 }
