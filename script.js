@@ -1,3 +1,3 @@
-function selectProduct(name) {
+  function selectProduct(name) {
     alert(name + " selected");
 }
